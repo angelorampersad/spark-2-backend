@@ -1,3 +1,3 @@
-# Strapi application
+# Spark 2 Backend
 
-A quick description of your strapi application
+A content management system based on the Strapi.io framework and hosted on the Google Cloud Platform (App Engine + Cloud Storage).
