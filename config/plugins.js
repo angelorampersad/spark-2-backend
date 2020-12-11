@@ -6,6 +6,6 @@ module.exports = {
             publicFiles: false,
             uniform: false,
             basePath: '',
-        },
-    },
+        }
+    }
 }
