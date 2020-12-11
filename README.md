@@ -11,11 +11,11 @@ This project makes use of a modern architecture design known as Jamstack. Techno
 \
 <img src="jamstack.svg" alt="drawing" width="400"/>
 
-## Admin Panel
-The admin panel allows for adding, updating and removing content and can be found at [cms.gylley.co.uk/admin](https://cms.gylley.co.uk/admin).
-
 ## API
 The Strapi.io framework delivers content as REST or GraphQL API. For example, below endpoint returns all entries within the article collection:
 ```
 GET https://cms.gylley.co.uk/articles
 ```
+
+## Admin Panel
+The admin panel allows for adding, updating and removing content and can be found at [cms.gylley.co.uk/admin](https://cms.gylley.co.uk/admin).
