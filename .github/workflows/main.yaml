@@ -1,3 +1,8 @@
+on:
+  push:
+    branches:    
+    - 'main'
+
 - name: Initialize Google Cloud SDK
   uses: zxyle/publish-gae-action@v2.3.0
   with:
