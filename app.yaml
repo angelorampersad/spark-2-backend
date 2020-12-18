@@ -5,10 +5,3 @@ instance_class: F2
 env_variables:
   HOST: '0.0.0.0'
   NODE_ENV: 'production'
-  DATABASE_NAME: ${{ secrets.DATABASE_NAME }}
-  DATABASE_USERNAME: ${{ secrets.DATABASE_USERNAME }}
-  DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
-  INSTANCE_CONNECTION_NAME: ${{ secrets.INSTANCE_CONNECTION_NAME }}
-
-beta_settings:
-  cloud_sql_instances: ${{ secrets.INSTANCE_CONNECTION_NAME }}
