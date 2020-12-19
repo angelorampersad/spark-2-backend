@@ -18,4 +18,4 @@ GET https://cms.gylley.com/articles
 ```
 
 ## Admin Panel
-The admin panel allows for adding, updating and removing content and can be found at [cms.gylley.co.uk/admin](https://cms.gylley.com/admin).
+The admin panel allows for adding, updating and removing content and can be found at [cms.gylley.com/admin](https://cms.gylley.com/admin).
