@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/privacystatement",
+      "handler": "privacystatement.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/privacystatement",
+      "handler": "privacystatement.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/privacystatement",
+      "handler": "privacystatement.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
