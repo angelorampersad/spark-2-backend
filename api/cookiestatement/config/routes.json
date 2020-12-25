@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cookiestatement",
+      "handler": "cookiestatement.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cookiestatement",
+      "handler": "cookiestatement.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cookiestatement",
+      "handler": "cookiestatement.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "cookiestatements",
+  "info": {
+    "name": "Cookiestatement",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "optinMessage": {
+      "type": "richtext",
+      "required": true
+    },
+    "optoutMessage": {
+      "type": "richtext",
+      "required": true
+    },
+    "technologies": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
