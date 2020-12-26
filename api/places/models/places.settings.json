@@ -75,6 +75,35 @@
       ],
       "private": true,
       "required": true
+    },
+    "city": {
+      "type": "enumeration",
+      "enum": [
+        "Amsterdam",
+        "Rotterdam",
+        "The_Hague",
+        "London",
+        "Manchester",
+        "Liverpool",
+        "Berlin",
+        "Munich",
+        "Hamburg",
+        "Barcelona",
+        "Madrid",
+        "Valencia",
+        "Paris",
+        "Lyon",
+        "Stockholm",
+        "Milan",
+        "Rome",
+        "Copenhagen",
+        "Zurich",
+        "Vienna",
+        "Antwerp",
+        "Brussels"
+      ],
+      "private": true,
+      "required": true
     }
   }
 }
