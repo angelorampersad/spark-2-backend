@@ -17,11 +17,11 @@
     },
     "description": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "content": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "status": {
       "type": "enumeration",
@@ -103,6 +103,14 @@
         "Brussels"
       ],
       "private": true,
+      "required": true
+    },
+    "description_nl_nl": {
+      "type": "string",
+      "required": true
+    },
+    "content_nl_nl": {
+      "type": "richtext",
       "required": true
     }
   }
