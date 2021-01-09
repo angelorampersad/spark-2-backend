@@ -15,11 +15,11 @@
       "type": "string",
       "required": true
     },
-    "description": {
+    "description_en": {
       "type": "string",
       "required": false
     },
-    "content": {
+    "content_en": {
       "type": "richtext",
       "required": false
     },
@@ -105,11 +105,11 @@
       "private": true,
       "required": true
     },
-    "description_nl_nl": {
+    "description_nl": {
       "type": "string",
       "required": true
     },
-    "content_nl_nl": {
+    "content_nl": {
       "type": "richtext",
       "required": true
     }
