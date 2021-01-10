@@ -111,7 +111,7 @@
     },
     "content_nl": {
       "type": "richtext",
-      "required": true
+      "required": false
     }
   }
 }
