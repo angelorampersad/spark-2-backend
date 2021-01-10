@@ -107,7 +107,7 @@
     },
     "description_nl": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "content_nl": {
       "type": "richtext",
