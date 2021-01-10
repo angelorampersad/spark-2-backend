@@ -6,7 +6,7 @@
  */
 
 const index = 'places';
- 
+
 module.exports = {
   lifecycles: {
     afterUpdate(result, params, data) {
@@ -17,7 +17,8 @@ module.exports = {
       }
     },
     afterDelete(result, params) {
-      strapi.services.algolia.deleteObject(result.id, index);
+      if (Array.isArray(result)) { result.forEach((item) => strapi.services.algolia.deleteObject(item.id, index)); }
+      else { strapi.services.algolia.deleteObject(result.id, index); }
     },
   },
 };
