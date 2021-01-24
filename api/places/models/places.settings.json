@@ -112,6 +112,12 @@
     "content_nl": {
       "type": "richtext",
       "required": false
+    },
+    "subtitle_en": {
+      "type": "string"
+    },
+    "subtitle_nl": {
+      "type": "string"
     }
   }
 }
