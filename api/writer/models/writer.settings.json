@@ -27,6 +27,10 @@
     },
     "email": {
       "type": "string"
+    },
+    "places": {
+      "via": "author",
+      "collection": "places"
     }
   }
 }

@@ -116,6 +116,10 @@
     },
     "subtitle_nl": {
       "type": "string"
+    },
+    "author": {
+      "model": "writer",
+      "via": "places"
     }
   }
 }
