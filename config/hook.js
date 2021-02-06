@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = ({ env }) => ({
     settings: {
         algolia: {
             enabled: true,
@@ -6,4 +6,4 @@ module.exports = {
             apiKey: env('ALGOLIA_API_KEY')
         },
     }
-};
+});
