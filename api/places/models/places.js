@@ -10,6 +10,7 @@ const index = 'places';
 module.exports = {
   lifecycles: {
     afterUpdate(result, params, data) {
+      console.log(params, data);
       if (result.published_at) {
         strapi.services.algolia.saveObject(result, index);
       } else {
