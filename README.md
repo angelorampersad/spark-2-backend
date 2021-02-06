@@ -19,3 +19,17 @@ GET https://cms.gylley.com/articles
 
 ## Admin Panel
 The admin panel allows for adding, updating and removing content and can be found at [cms.gylley.com/admin](https://cms.gylley.com/admin).
+
+## Run local
+1. Clone the repository
+```
+git clone https://github.com/allspark-io/spark-2-backend.git && cd spark-2-backend
+```
+2. Set Algolia environment variables
+```
+export ALGOLIA_APP_ID="" ALGOLIA_API_KEY=""
+```
+3. Start application
+```
+npm run develop
+```
