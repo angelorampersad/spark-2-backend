@@ -36,8 +36,9 @@
       "targetField": "name",
       "required": true
     },
-    "category": {
-      "model": "category"
+    "categories": {
+      "collection": "category",
+      "via": "place"
     },
     "image": {
       "model": "file",
