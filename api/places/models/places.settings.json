@@ -47,7 +47,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "latitude": {
       "type": "float",
