@@ -36,8 +36,9 @@
       "targetField": "name",
       "required": true
     },
-    "category": {
-      "model": "category"
+    "categories": {
+      "collection": "category",
+      "via": "place"
     },
     "image": {
       "model": "file",
@@ -46,7 +47,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "latitude": {
       "type": "float",

@@ -21,6 +21,10 @@
     "articles": {
       "via": "category",
       "collection": "article"
+    },
+    "place": {
+      "via": "categories",
+      "model": "places"
     }
   }
 }
