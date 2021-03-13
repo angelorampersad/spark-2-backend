@@ -11,22 +11,22 @@
     "gcp-build": "strapi build"
   },
   "dependencies": {
-    "knex": "0.20.0",
-    "mime-types": "^2.1.27",
+    "knex": "0.21.18",
+    "mime-types": "^2.1.29",
     "pg": "^8.5.1",
     "sqlite3": "latest",
-    "strapi": "3.4.6",
-    "strapi-admin": "3.4.6",
-    "strapi-connector-bookshelf": "3.4.6",
+    "strapi": "3.5.3",
+    "strapi-admin": "3.5.3",
+    "strapi-connector-bookshelf": "3.5.3",
     "strapi-hook-algolia": "^3.4.0",
-    "strapi-plugin-content-manager": "3.4.6",
-    "strapi-plugin-content-type-builder": "3.4.6",
-    "strapi-plugin-email": "3.4.6",
-    "strapi-plugin-graphql": "^3.4.6",
-    "strapi-plugin-upload": "3.4.6",
-    "strapi-plugin-users-permissions": "3.4.6",
-    "strapi-provider-upload-google-cloud-storage": "^3.1.6",
-    "strapi-utils": "3.4.6"
+    "strapi-plugin-content-manager": "3.5.3",
+    "strapi-plugin-content-type-builder": "3.5.3",
+    "strapi-plugin-email": "3.5.3",
+    "strapi-plugin-graphql": "^3.5.3",
+    "strapi-plugin-upload": "3.5.3",
+    "strapi-plugin-users-permissions": "3.5.3",
+    "strapi-provider-upload-google-cloud-storage": "^3.4.6",
+    "strapi-utils": "3.5.3"
   },
   "author": {
     "name": "A Strapi developer"
