@@ -36,10 +36,6 @@
       "targetField": "name",
       "required": true
     },
-    "categories": {
-      "collection": "category",
-      "via": "place"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -117,10 +113,6 @@
     },
     "subtitle_nl": {
       "type": "string"
-    },
-    "author": {
-      "model": "writer",
-      "via": "places"
     }
   }
 }
