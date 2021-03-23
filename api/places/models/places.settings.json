@@ -113,6 +113,10 @@
     },
     "subtitle_nl": {
       "type": "string"
+    },
+    "categories": {
+      "via": "places",
+      "collection": "categories"
     }
   }
 }
