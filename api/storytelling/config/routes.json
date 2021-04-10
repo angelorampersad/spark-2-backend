@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/storytelling",
+      "handler": "storytelling.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/storytelling",
+      "handler": "storytelling.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/storytelling",
+      "handler": "storytelling.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
