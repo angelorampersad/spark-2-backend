@@ -1,0 +1,107 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inspirations",
+  "info": {
+    "name": "Inspirations",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description_en": {
+      "type": "string"
+    },
+    "content_en": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description_nl": {
+      "type": "string"
+    },
+    "content_nl": {
+      "type": "richtext"
+    },
+    "subtitle_nl": {
+      "type": "string"
+    },
+    "subtitle_en": {
+      "type": "string"
+    },
+    "categories": {
+      "collection": "categories",
+      "via": "inspirations",
+      "dominant": true
+    },
+    "map_widget": {
+      "type": "boolean",
+      "default": false
+    },
+    "city": {
+      "type": "enumeration",
+      "enum": [
+        "Amsterdam",
+        "Rotterdam",
+        "The_Hague",
+        "London",
+        "Manchester",
+        "Liverpool",
+        "Berlin",
+        "Munich",
+        "Hamburg",
+        "Barcelona",
+        "Madrid",
+        "Valencia",
+        "Paris",
+        "Lyon",
+        "Stockholm",
+        "Milan",
+        "Rome",
+        "Copenhagen",
+        "Zurich",
+        "Vienna",
+        "Antwerp",
+        "Brussels",
+        "NA"
+      ]
+    },
+    "country": {
+      "type": "enumeration",
+      "enum": [
+        "NLD",
+        "GBR",
+        "DEU",
+        "ESP",
+        "FRA",
+        "SWE",
+        "ITA",
+        "DNK",
+        "CHE",
+        "AUT",
+        "BEL",
+        "NA"
+      ]
+    }
+  }
+}
