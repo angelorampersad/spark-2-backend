@@ -10,16 +10,20 @@
     "timestamps": true,
     "draftAndPublish": true
   },
+  "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "description_en": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "content_en": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {}
     },
     "slug": {
       "type": "uid",
@@ -35,19 +39,24 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "description_nl": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "content_nl": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {}
     },
     "subtitle_nl": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "subtitle_en": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "categories": {
       "collection": "categories",
@@ -56,7 +65,8 @@
     },
     "map_widget": {
       "type": "boolean",
-      "default": false
+      "default": false,
+      "pluginOptions": {}
     },
     "city": {
       "type": "enumeration",
@@ -84,7 +94,8 @@
         "Antwerp",
         "Brussels",
         "NA"
-      ]
+      ],
+      "pluginOptions": {}
     },
     "country": {
       "type": "enumeration",
@@ -101,7 +112,8 @@
         "AUT",
         "BEL",
         "NA"
-      ]
+      ],
+      "pluginOptions": {}
     }
   }
 }
