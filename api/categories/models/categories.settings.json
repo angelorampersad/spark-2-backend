@@ -12,8 +12,8 @@
   },
   "attributes": {
     "places": {
-      "collection": "places",
       "via": "categories",
+      "collection": "places",
       "dominant": true
     },
     "name": {
