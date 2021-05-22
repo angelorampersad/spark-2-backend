@@ -43,7 +43,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "latitude": {
       "type": "float",
@@ -117,6 +118,12 @@
     "categories": {
       "via": "places",
       "collection": "categories"
+    },
+    "extended_content_en": {
+      "type": "richtext"
+    },
+    "extended_content_nl": {
+      "type": "richtext"
     }
   }
 }
